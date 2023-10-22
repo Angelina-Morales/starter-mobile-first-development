@@ -1,5 +1,5 @@
 main {
-  margin-top: 60px;
+  margin: 100px;
 }
 
 main h1 {
@@ -27,3 +27,24 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+/*@mediz all and (min width 500px) {*/
+  .row {
+    display: flex;
+    align-items: space-between;
+    padding: 30px;
+  }
+
+  .column {
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: normal;
+    padding: 30px;
+  }
+
+ .box {
+    display: flex;
+    margin: 30px;
+    background-color: brown;
+    padding: 20px;
+ }
